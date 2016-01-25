@@ -7,6 +7,7 @@
 
 **Write the HTML code for the beets activity concentrating on semantics only.**
 
+- *Fork this repository.*
 - Create an `index.html` file inside the repository.
 - Write all the HTML we discussed in class for the beets website.
 - Remember to do regular commits.
