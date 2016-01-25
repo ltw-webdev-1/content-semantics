@@ -1,0 +1,42 @@
+repo: "content-semantics"
+canvasCourse: "467502"
+canvasAssignment: "4178289"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - "header"
+      - "header h1"
+      - "header nav"
+      - "header nav ol"
+      - "h2"
+      - "p"
+      - "blockquote"
+      - "blockquote cite"
+      - "q"
+      - "ul"
+      - "dl"
+      - "data"
+      - "time"
+      - "small"
+      - "strong"
+      - "em"
+      - "i"
+      - "b"
+      - "figure img"
+      - "figure"
+      - "figure figcaption"
+      - "a[href]"
+    search:
+      - "Beetroot"
+      - "purple"
+      - "Battlestar Galactica"
+      - "Chioggia"
+      - "Carbohydrates"
+      - "Vegetable!"
+      - "Wikipedia"
