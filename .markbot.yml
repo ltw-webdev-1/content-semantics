@@ -32,6 +32,8 @@ html:
       - "figure"
       - "figure figcaption"
       - "a[href]"
+      - "aside"
+      - "footer"
     search:
       - "Beetroot"
       - "purple"
