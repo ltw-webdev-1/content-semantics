@@ -1,11 +1,12 @@
-# Content semantics
-
-- Approx. completion time: **2 hours**
-- Deliverables: **1 HTML file, images**
-
+---
+summary: 'Write the HTML code for the beets activity concentrating on semantics only.'
+time: '2 hours'
+deliverables: '1 HTML file, images'
 ---
 
-**Write the HTML code for the beets activity concentrating on semantics only.**
+# Content semantics
+
+## Overview
 
 - *Fork this repository.*
 - Create an `index.html` file inside the repository.
