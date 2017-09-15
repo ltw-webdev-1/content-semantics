@@ -1,20 +1,13 @@
 repo: "content-semantics"
 canvasCourse: "web-dev-1"
 
-naming: true
-restrictFileTypes: true
-liveWebsite: true
-
-git:
-  numCommits: 2
-  allCommitted: true
-  allSynced: true
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
 
 html:
   - path: "index.html"
-    valid: true
-    bestPractices: true
-    outline: true
     has:
       - "header"
       - "header h1"

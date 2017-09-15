@@ -18,7 +18,7 @@ deliverables: '1 HTML file, images'
 
 ## Goal
 
-It **will not** look the same as the PDFs from earlier in class—we’re only concentrating on HTML semantics not how it looks.
+**It will not look the same as the PDF** from earlier in class—we’re only concentrating on HTML semantics not how it looks.
 
 ---
 
