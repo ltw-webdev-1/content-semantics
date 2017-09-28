@@ -1,5 +1,5 @@
-repo: "content-semantics"
-canvasCourse: "web-dev-1"
+repo: 'content-semantics'
+canvasCourse: 'web-dev-1'
 
 inherit:
   - naming-restrict-live
@@ -7,37 +7,44 @@ inherit:
   - html
 
 html:
-  - path: "index.html"
+  - path: 'index.html'
     has:
-      - "header"
-      - "header h1"
-      - "header nav"
-      - "header nav ol"
-      - "h2"
-      - "p"
-      - "blockquote"
-      - "blockquote cite"
-      - "q"
-      - "ul"
-      - "dl"
-      - "data"
-      - "time"
-      - "small"
-      - "strong"
-      - "em"
-      - "i"
-      - "b"
-      - "figure img"
-      - "figure"
-      - "figure figcaption"
-      - "a[href]"
-      - "aside"
-      - "footer"
+      - 'header'
+      - check: 'header h1'
+        message: 'There is no `<h1>` tag inside a `<header>` tag'
+      - check: 'header nav'
+        message: 'There is no `<nav>` tag inside a `<header>` tag'
+      - check: 'header nav ol'
+        message: 'There is no `<ol>` tag inside a `<nav>` tag, inside a `<header>` tag'
+      - 'h2'
+      - 'p'
+      - 'blockquote'
+      - check: 'blockquote cite'
+        message: 'There’s no `<cite>` tag inside the `<blockquote>` tag'
+      - 'q'
+      - 'ul'
+      - 'dl'
+      - 'data'
+      - 'time'
+      - 'small'
+      - 'strong'
+      - 'em'
+      - 'i'
+      - 'b'
+      - 'figure'
+      - check: 'figure img'
+        message: 'There is no `<img>` tag inside the `<figure>` tag'
+      - check: 'figure figcaption'
+        message: 'There is no `<figcaption>` tag inside the `<figure>` tag'
+      - check: 'a[href]'
+        message: 'There is no `href=""` attribute on the `<a>` tag'
+      - 'aside'
+      - 'footer'
     search:
-      - "Beetroot"
-      - "purple"
-      - "Battlestar Galactica"
-      - "Chioggia"
-      - "Carbohydrates"
-      - "Vegetable!"
-      - "Wikipedia"
+      - 'Beetroot'
+      - 'purple'
+      - 'Battlestar Galactica'
+      - 'Chioggia'
+      - 'Carbohydrates'
+      - 'Vegetable!'
+      - 'Wikipedia'
