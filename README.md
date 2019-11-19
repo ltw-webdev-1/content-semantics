@@ -12,6 +12,7 @@ deliverables: '1 HTML file, images'
 - Create an `index.html` file inside the repository.
 - Write all the HTML we discussed in class for the beets website.
 - Remember to do regular commits.
+- Text can be found inside the `content.txt` file.
 - *Run it through Markbot and make sure it passes all the checks.*
 
 ---
